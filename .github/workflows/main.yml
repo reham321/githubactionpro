@@ -12,3 +12,8 @@ jobs:
     steps:
       - name: print welcome
         run: echo "welcome reem"
+      - name: Checkout
+        uses: actions/checkout@v4.2.2
+
+      - name: list file
+        run: ls -la
